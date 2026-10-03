@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-labelledby="banner-title banner-description">
   <title id="banner-title">Dapaoo0 — Bioinformatics and Computational Biology</title>
-  <desc id="banner-description">A navy and teal banner with a restrained biological network motif. Questions, methods, and evidence.</desc>
+  <desc id="banner-description">A navy and teal banner with a DNA double helix and a subtle stylized folded-protein ribbon. Questions, methods, and evidence.</desc>
   <rect width="1200" height="240" rx="12" fill="#0F172A"/>
   <path d="M48 42V198" stroke="#14B8A6" stroke-width="4"/>
   <g font-family="Segoe UI, Arial, sans-serif" fill="#E2E8F0">
@@ -9,26 +9,26 @@
     <text x="74" y="158" font-size="39" font-weight="600">Computational Biology</text>
     <text x="76" y="200" font-size="18" fill="#E2E8F0" opacity="0.75">Questions · Methods · Evidence</text>
   </g>
-  <g fill="none" stroke="#14B8A6">
-    <circle cx="993" cy="121" r="86" opacity="0.12"/>
-    <circle cx="993" cy="121" r="108" opacity="0.08" stroke-dasharray="3 9"/>
-    <path d="M845 92L902 55L965 87L1026 47L1101 94L1144 145L1087 195L1021 164L959 196L902 151L845 92M902 55L902 151L965 87L1021 164L1101 94M965 87L1087 195M902 151L1021 164L1144 145" stroke-width="1.5" opacity="0.45"/>
-    <path d="M845 92L959 196M1026 47L1021 164" stroke-width="1" opacity="0.18"/>
-  </g>
-  <g fill="#0F172A" stroke="#14B8A6" stroke-width="2">
-    <circle cx="845" cy="92" r="5"/>
-    <circle cx="902" cy="55" r="6"/>
-    <circle cx="965" cy="87" r="8"/>
-    <circle cx="1026" cy="47" r="5"/>
-    <circle cx="1101" cy="94" r="7"/>
-    <circle cx="1144" cy="145" r="5"/>
-    <circle cx="1087" cy="195" r="6"/>
-    <circle cx="1021" cy="164" r="8"/>
-    <circle cx="959" cy="196" r="5"/>
-    <circle cx="902" cy="151" r="7"/>
-  </g>
-  <g fill="#E2E8F0">
-    <circle cx="965" cy="87" r="3"/>
-    <circle cx="1021" cy="164" r="3"/>
+  <g transform="translate(0 10)">
+    <g fill="none" stroke-linecap="round">
+      <path d="M800 150C830 50 890 20 920 120C950 220 1030 200 1040 120C1050 40 1120 60 1160 150" stroke="#1E293B" stroke-width="16"/>
+      <path d="M800 150C830 50 890 20 920 120C950 220 1030 200 1040 120C1050 40 1120 60 1160 150" stroke="#334155" stroke-width="6" opacity="0.6"/>
+      <path d="M810 80C860 180 880 180 910 80C940 -20 1000 -10 1010 80C1020 170 1090 190 1140 90" stroke="#0F172A" stroke-width="24" opacity="0.8"/>
+      <path d="M810 80C860 180 880 180 910 80C940 -20 1000 -10 1010 80C1020 170 1090 190 1140 90" stroke="#1E293B" stroke-width="12" opacity="0.7"/>
+    </g>
+    <g fill="none" stroke="#14B8A6" stroke-width="3" opacity="0.4">
+      <path d="M830 52L830 188M840 69L840 171M850 93L850 147M870 93L870 147M880 69L880 171M890 52L890 188M900 45L900 195M910 52L910 188M920 69L920 171M930 93L930 147M950 93L950 147M960 69L960 171M970 52L970 188M980 45L980 195M990 52L990 188M1000 69L1000 171M1010 93L1010 147M1030 93L1030 147M1040 69L1040 171M1050 52L1050 188M1060 45L1060 195M1070 52L1070 188M1080 69L1080 171M1090 93L1090 147M1110 93L1110 147M1120 69L1120 171M1130 52L1130 188"/>
+      <path d="M820 45L820 195M1140 45L1140 195"/>
+    </g>
+    <g fill="none" stroke-width="7" stroke-linecap="round">
+      <path d="M820 195C855 195 865 45 900 45C935 45 945 195 980 195C1015 195 1025 45 1060 45C1095 45 1105 195 1140 195" stroke="#0D9488"/>
+      <path d="M820 45C855 45 865 195 900 195C935 195 945 45 980 45C1015 45 1025 195 1060 195C1095 195 1105 45 1140 45" stroke="#2DD4BF"/>
+    </g>
+    <g fill="#E2E8F0" opacity="0.7">
+      <circle cx="860" cy="120" r="3.5"/>
+      <circle cx="940" cy="120" r="3.5"/>
+      <circle cx="1020" cy="120" r="3.5"/>
+      <circle cx="1100" cy="120" r="3.5"/>
+    </g>
   </g>
 </svg>
